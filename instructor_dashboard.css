@@ -1,0 +1,81 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Sidebar Styling */
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+}
+
+.sidebar h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 15px;
+    transition: background-color 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: #34495e;
+}
+
+/* Main Content Styling */
+.main-content {
+    margin-left: 270px; /* Space for sidebar */
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.main-content h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #34495e;
+}
+
+.main-content p {
+    font-size: 18px;
+    color: #7f8c8d;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 200px;
+    }
+
+    .main-content {
+        margin-left: 220px;
+    }
+}
+
+@media (max-width: 480px) {
+    .sidebar {
+        width: 100%;
+        position: relative;
+        height: auto;
+    }
+
+    .main-content {
+        margin-left: 0;
+    }
+}

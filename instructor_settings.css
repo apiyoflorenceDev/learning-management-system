@@ -1,0 +1,81 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin-left: 100px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 300px;
+}
+
+/* Container */
+.container {
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    text-align: center;
+}
+
+/* Headings */
+h2, h3 {
+    color: #333;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+    text-align: left;
+    width: 100%;
+}
+
+select, input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+/* Buttons */
+button {
+    background-color: #254260;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #2d445c;
+}
+
+/* Error or Success Messages */
+p {
+    color: red;
+    font-weight: bold;
+}

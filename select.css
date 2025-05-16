@@ -1,0 +1,74 @@
+/* General styling for the form */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Styling the select dropdown */
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    background-color: #f4f4f4;
+    cursor: pointer;
+}
+
+/* Styling the options inside the select dropdown */
+select option {
+    padding: 10px;
+    background-color: #fff;
+}
+
+/* Focus effect for the select dropdown */
+select:focus {
+    outline: none;
+    border: 1px solid #4CAF50; /* Green border on focus */
+    background-color: #f1f1f1;
+}
+
+/* Styling the form input fields */
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    background-color: #f4f4f4;
+}
+
+/* Button styling */
+button {
+    width: 100%;
+    padding: 14px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Hover effect for the button */
+button:hover {
+    background-color: #45a049;
+}
